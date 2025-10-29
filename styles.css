@@ -21,6 +21,13 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        max-width: 100%;
+    }
+}
+
 /* Header with Print Button */
 .header {
     margin-bottom: 30px;
@@ -253,6 +260,24 @@ body {
     font-style: normal;
     line-height: 1.6;
     letter-spacing: 0.3px;
+}
+
+/* Mobile optimizations for resume and cover letter */
+@media (max-width: 768px) {
+    .letter-body {
+        max-width: 100%;
+    }
+    
+    .resume-section h2,
+    .education-header,
+    .work-header {
+        font-size: clamp(8pt, 3vw, 10pt);
+    }
+    
+    .resume-content,
+    .cover-letter-content {
+        font-size: clamp(9pt, 3.5vw, 11pt);
+    }
 }
 
 /* Print Optimizations */
