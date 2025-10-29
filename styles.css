@@ -17,7 +17,7 @@ body {
     max-width: 8.5in;
     margin: 0 auto;
     background: white;
-    padding: 1in;
+    padding: 0.5in;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -136,30 +136,30 @@ body {
 
 /* Resume Styles */
 .resume-content {
-    font-size: 10pt;
-    line-height: 1.6;
+    font-size: 9pt;
+    line-height: 1.5;
 }
 
 .resume-header {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .resume-header h1 {
-    font-size: 32pt;
+    font-size: 28pt;
     font-weight: 300;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
     text-transform: uppercase;
 }
 
 .resume-header .contact-info {
-    font-size: 9pt;
-    line-height: 1.8;
+    font-size: 8.5pt;
+    line-height: 1.6;
     color: #666;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 }
 
 .resume-header .contact-info a {
@@ -168,25 +168,25 @@ body {
 }
 
 .resume-section {
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     page-break-inside: avoid;
 }
 
 .resume-section h2 {
-    font-size: 9pt;
+    font-size: 8.5pt;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
-    margin-bottom: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     color: #333;
 }
 
 .education-item,
 .work-item,
 .award-item {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .education-header,
@@ -199,9 +199,9 @@ body {
 
 .education-header strong,
 .work-header strong {
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: 500;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 }
 
 .date {
@@ -215,22 +215,22 @@ body {
 
 .education-details,
 .work-company {
-    font-size: 9pt;
+    font-size: 8.5pt;
     margin-left: 0;
     color: #666;
     font-style: normal;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
 }
 
 .work-details {
     margin-left: 20px;
-    margin-top: 8px;
-    font-size: 10pt;
-    line-height: 1.6;
+    margin-top: 5px;
+    font-size: 9pt;
+    line-height: 1.4;
 }
 
 .work-details li {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color: #444;
 }
 
