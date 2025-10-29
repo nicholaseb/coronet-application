@@ -1,0 +1,8 @@
+# Ignore large video files
+videos/*.mp4
+videos/*.mov
+videos/*.webp
+
+# Keep specific files
+!videos/.gitkeep
+
